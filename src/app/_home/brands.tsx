@@ -25,7 +25,7 @@ export default function Brands() {
         ))}
       </div>
       <Button variant='ghost' className='text-2xl place-self-end'>
-        Տեսնել բոլորը
+        Ավելին
       </Button>
     </section>
   )

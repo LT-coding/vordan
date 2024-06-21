@@ -2,9 +2,14 @@ import { storiesMockData } from '@/data/mock-data'
 
 export default function Stories() {
   return (
-    <div className='flex gap-16 justify-center pt-44'>
+    <div className='flex gap-16 justify-center pt-28'>
       {storiesMockData.map((story) => (
-        <div key={story.id} className='bg-gray-200 rounded-full size-28'></div>
+        <img
+          key={story.id}
+          src={story.imageUrl}
+          alt='story'
+          className='bg-gray-200 rounded-full size-28 object-cover'
+        />
       ))}
     </div>
   )

@@ -1,28 +1,28 @@
 export const storiesMockData = [
   {
     id: 1,
-    imageUrl: 'https://via.placeholder.com/150',
+    imageUrl: '/images/categories/kids.png',
   },
   {
     id: 2,
     description: 'Description 2',
-    imageUrl: 'https://via.placeholder.com/150',
+    imageUrl: '/images/categories/accesories.png',
   },
   {
     id: 3,
-    imageUrl: 'https://via.placeholder.com/150',
+    imageUrl: '/images/categories/sales.png',
   },
   {
     id: 4,
-    imageUrl: 'https://via.placeholder.com/150',
+    imageUrl: '/images/categories/clothes.png',
   },
   {
     id: 5,
-    imageUrl: 'https://via.placeholder.com/150',
+    imageUrl: '/images/categories/home.png',
   },
   {
     id: 6,
-    imageUrl: 'https://via.placeholder.com/150',
+    imageUrl: '/images/categories/kitchen-electronics.png',
   },
 ]
 

@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function Categories() {
   return (
-    <section className='flex flex-col gap-11 pt-44 px-8'>
+    <section className='flex flex-col gap-11 pt-32 px-8'>
       <div className='flex justify-between items-center'>
         <h2 className='text-5xl font-bold'>Կատեգորիաներ</h2>
         <div className='flex gap-16'>
@@ -36,6 +36,9 @@ export default function Categories() {
           </Link>
         ))}
       </div>
+      <Button variant='ghost' className='text-2xl place-self-end'>
+        Ավելին
+      </Button>
     </section>
   )
 }
