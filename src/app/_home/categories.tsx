@@ -20,7 +20,11 @@ export default function Categories() {
       </div>
       <div className='flex gap-5 justify-center'>
         {categoriesMockData.map((category) => (
-          <Link href='/' key={category.id}>
+          <Link
+            href='/'
+            key={category.id}
+            className='shadow-md rounded-b-md hover:-translate-y-2 transition duration-300 hover:shadow-lg'
+          >
             <img
               src={category.imageUrl}
               alt={category.title}

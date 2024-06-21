@@ -25,7 +25,7 @@ export default function Discounts() {
             <img
               src={item.imageUrl}
               alt={item.title}
-              className='object-contain h-full'
+              className='object-cover h-full'
             />
             <div className='font-bold'>մինչև {item.timeLeft}</div>
             <h3 className='absolute bottom-0 start-8 z-10 text-6xl font-bold'>
