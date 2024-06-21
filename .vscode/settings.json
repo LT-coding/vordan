@@ -1,11 +1,12 @@
 {
   "workbench.colorCustomizations": {
-    "sash.hoverBorder": "#efadb5",
-    "statusBar.background": "#e6838f",
-    "statusBar.foreground": "#15202b",
-    "statusBarItem.hoverBackground": "#dd5969",
-    "statusBarItem.remoteBackground": "#e6838f",
-    "statusBarItem.remoteForeground": "#15202b"
+    "sash.hoverBorder": "#d94040",
+    "statusBar.background": "#c12626",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#d94040",
+    "statusBarItem.remoteBackground": "#c12626",
+    "statusBarItem.remoteForeground": "#e7e7e7"
   },
-  "peacock.color": "#e6838f"
+  "peacock.color": "#c12626",
+  "cSpell.words": ["Vordan"]
 }
