@@ -2,27 +2,33 @@ export const storiesMockData = [
   {
     id: 1,
     imageUrl: '/images/categories/kids.png',
+    title: 'Պրոդուկտ',
   },
   {
     id: 2,
     description: 'Description 2',
     imageUrl: '/images/categories/accesories.png',
+    title: 'Բռենդ',
   },
   {
     id: 3,
     imageUrl: '/images/categories/sales.png',
+    title: 'Նորույթ  ',
   },
   {
     id: 4,
     imageUrl: '/images/categories/clothes.png',
+    title: 'Զեղչեր',
   },
   {
     id: 5,
     imageUrl: '/images/categories/home.png',
+    title: 'Ինֆլյուենսերներ ',
   },
   {
     id: 6,
     imageUrl: '/images/categories/kitchen-electronics.png',
+    title: 'Թարմացումներ',
   },
 ]
 
