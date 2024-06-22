@@ -11,7 +11,11 @@ export default function Footer() {
             <div className='text-2xl font-bold'>{item.item}</div>
             <div className='flex flex-col gap-4'>
               {item.subItems.map((subItem, index) => (
-                <Link key={index} href={subItem.link} className='text-lg'>
+                <Link
+                  key={index}
+                  href={subItem.link}
+                  className='text-lg hover:bg-gray-200 px-2 rounded-sm transition-colors'
+                >
                   {subItem.item}
                 </Link>
               ))}

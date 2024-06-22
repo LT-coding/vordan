@@ -28,9 +28,9 @@ export default function Discounts() {
               className='object-cover h-full'
             />
             <div className='font-bold'>մինչև {item.timeLeft}</div>
-            <h3 className='absolute bottom-0 start-8 z-10 text-6xl font-bold'>
+            {/* <h3 className='absolute bottom-0 start-8 z-10 text-6xl font-bold'>
               {item.title}
-            </h3>
+            </h3> */}
           </div>
         ))}
       </div>
